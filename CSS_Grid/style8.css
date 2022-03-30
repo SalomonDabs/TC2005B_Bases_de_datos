@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    background-color: rgba(44, 48, 67, 255);
+}
+
+.grid-container {
+    display: grid;
+    margin: 30px;
+    height: 94vh;
+    grid-template-areas: ". . . . ." ". . sidebar sidebar sidebar" "footer footer footer footer footer";
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.grid-item-1 {
+    background-color: rgba(235, 93, 84, 255);
+    /* red */
+}
+
+.grid-item-2 {
+    background-color: rgba(242, 159, 95, 255);
+    /* yellow */
+}
+
+.grid-item-3 {
+    background-color: rgba(107, 219, 187, 255);
+    /* light green */
+}
+
+.grid-item-4 {
+    background-color: rgba(94, 194, 161, 255);
+    /* mid green */
+}
+
+.grid-item-5 {
+    background-color: rgba(81, 168, 136, 255);
+    /* dark green */
+}
+
+.grid-item-6 {
+    background-color: rgba(242, 159, 95, 255);
+    /* yellow */
+}
+
+.grid-item-7 {
+    background-color: rgba(235, 93, 84, 255);
+    /* red */
+}
+
+.grid-item-8 {
+    background-color: rgba(238, 128, 90, 255);
+    /* orange */
+    grid-area: sidebar;
+}
+
+.grid-item-9 {
+    background-color: rgba(107, 219, 187, 255);
+    /* light green */
+    grid-area: footer;
+}

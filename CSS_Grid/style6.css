@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    background-color: rgba(44, 48, 67, 255);
+}
+
+.grid-container {
+    display: grid;
+    margin: 15px;
+    height: 97vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "header1 header1 header2 header3" "sub1 sub2 sub3 ." "mid1 mid1 mid2 mid3" "mid1 mid1 subdown1 ." "footer1 footer1 footer1 footer2";
+    gap: 15px;
+}
+
+.grid-item-1 {
+    background-color: rgba(235, 93, 84, 255);
+    /* red */
+    grid-area: header1;
+}
+
+.grid-item-2 {
+    background-color: rgba(81, 168, 136, 255);
+    /* dark green */
+    grid-area: header2;
+}
+
+.grid-item-3 {
+    background-color: rgba(242, 159, 95, 255);
+    /* yellow */
+    grid-area: header3;
+}
+
+.grid-item-4 {
+    background-color: rgba(238, 128, 90, 255);
+    /* orange */
+    grid-area: sub1;
+}
+
+.grid-item-5 {
+    background-color: rgba(81, 168, 136, 255);
+    /* dark green */
+    grid-area: sub2;
+}
+
+.grid-item-6 {
+    background-color: rgba(94, 194, 161, 255);
+    /* mid green */
+    grid-area: sub3;
+}
+
+.grid-item-7 {
+    background-color: rgba(242, 159, 95, 255);
+    /* yellow */
+    grid-area: mid1;
+}
+
+.grid-item-8 {
+    background-color: rgba(107, 219, 187, 255);
+    /* light green */
+    grid-area: mid2;
+}
+
+.grid-item-9 {
+    background-color: rgba(235, 93, 84, 255);
+    /* red */
+    grid-area: mid3;
+}
+
+.grid-item-10 {
+    background-color: rgba(81, 168, 136, 255);
+    /* dark green */
+    grid-area: subdown1;
+}
+
+.grid-item-11 {
+    background-color: rgba(107, 219, 187, 255);
+    /* light green */
+    grid-area: footer1;
+}
+
+.grid-item-12 {
+    background-color: rgba(242, 159, 95, 255);
+    /* yellow */
+    grid-area: footer2;
+}
